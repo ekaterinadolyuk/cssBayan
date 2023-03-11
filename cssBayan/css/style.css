@@ -2,16 +2,16 @@ body {
     font-family: 'Shantell Sans';
     font-weight: bold;
     background-color: #F5F5F5;
-    margin: 30px auto;
-    width: 600px;
+    margin: 2rem auto;
+    max-width: 800px;
 }
 
 .header {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .line {
-    margin: 10px 0 0 0;
+    margin: 1rem 0 0 0;
 }
 
 .accordion {
@@ -27,8 +27,8 @@ body {
 .accordion li {
     list-style: none;
     width: 100%;
-    margin-bottom: 10px;
-    padding-top: 10px;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .accordion li label {
@@ -36,17 +36,14 @@ body {
 }
 
 .accordion .section-title {
-    padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.image-example {
+    height: 100%;
+    margin-top: 1rem;
 }
 
 .accordion input {
@@ -54,18 +51,21 @@ body {
 }
 
 .accordion .image {
-    max-height: 0;
+    height: 0;
     overflow: hidden;
-    transition: max-height 0.5s;
+    transition: height 0.5s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .accordion li:hover .image {
-   max-height: 400px;
-   transition: 1s;
+   height: 400px;
 }
 
 .accordion input:checked + label .image {
-    max-height: 400px;
+    height: 400px;
  }
 
 .accordion input:checked + label {
