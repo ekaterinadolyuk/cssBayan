@@ -6,6 +6,10 @@ body {
     width: 600px;
 }
 
+.header {
+    font-size: 32px;
+}
+
 .line {
     margin: 10px 0 0 0;
 }
