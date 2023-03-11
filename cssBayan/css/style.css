@@ -13,6 +13,7 @@ body {
 #accordion {
     margin: 0;
     padding-left: 0;
+    color: #0000FF;
 }
 
 #accordion li {
@@ -20,6 +21,18 @@ body {
     width: 100%;
     margin-bottom: 10px;
     padding-top: 10px;
+}
+
+#accordion li label {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#accordion li label i {
+    transform: rotate(90deg);
 }
 
 .image {
