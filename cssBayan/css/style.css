@@ -50,9 +50,10 @@ body {
 
 .accordion li:hover .image {
    max-height: 400px;
+   transition: 1s;
 }
 
-.accordion input:checked + .image {
+.accordion input:checked + label + .image {
     max-height: 400px;
  }
 
