@@ -68,6 +68,10 @@ body {
     max-height: 400px;
  }
 
+.accordion input:checked + label {
+    color:black;
+}
+
 .accordion li:hover label i {
     transform: rotate(45deg);
 }
