@@ -1,4 +1,10 @@
 body {
     font-family: 'Shantell Sans';
     font-weight: bold;
+    background-color: #F5F5F5;
+}
+
+#accordion {
+    margin: 0 auto;
+    width: 600px;
 }
