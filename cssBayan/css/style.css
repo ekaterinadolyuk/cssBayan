@@ -54,10 +54,11 @@ body {
     height: 0;
     overflow: hidden;
     transition: height 0.5s;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .accordion li:hover .image {
